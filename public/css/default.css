@@ -1,0 +1,87 @@
+body {
+  background-color: black; }
+  body .font-cn {
+    font-family: "Lantinghei SC"; }
+  body h3.logo {
+    background: url(../images/cd-logo.png);
+    width: 260px;
+    height: 143px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center center; }
+  body .content.form {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9998; }
+    body .content.form.loading {
+      visibility: hidden; }
+    body .content.form form.secret {
+      text-align: center; }
+      body .content.form form.secret .input-password {
+        padding: 20px; }
+        body .content.form form.secret .input-password span {
+          padding-right: 5px; }
+      body .content.form form.secret span {
+        color: #aaaaaa;
+        letter-spacing: 5px;
+        font-weight: 100; }
+      body .content.form form.secret input[type=button] {
+        background: black; }
+      body .content.form form.secret input[type=text] {
+        color: black;
+        width: 120px; }
+    body .content.form footer {
+      text-align: right;
+      position: absolute;
+      bottom: 20px;
+      right: 20px; }
+  body .content.section {
+    background-color: black;
+    color: white;
+    opacity: 0; }
+    body .content.section section {
+      background-size: 100%; }
+      body .content.section section .download {
+        width: 120px;
+        padding: 20px;
+        color: white; }
+        body .content.section section .download a {
+          color: white; }
+          body .content.section section .download a .date {
+            color: yellow; }
+          body .content.section section .download a .x-download {
+            color: green; }
+      body .content.section section.preview-1 {
+        background-image: url("../images/b1.jpg"); }
+      body .content.section section.preview-2 {
+        background-image: url("../images/b2.jpg"); }
+      body .content.section section.preview-3 {
+        background-image: url("../images/b3.jpg"); }
+      body .content.section section.preview-4 {
+        background-image: url("../images/b4.jpg"); }
+      body .content.section section.preview-5 {
+        background-image: url("../images/b5.jpg"); }
+      body .content.section section.preview-6 {
+        background-image: url("../images/b6.jpg"); }
+      body .content.section section.preview-7 {
+        background-image: url("../images/b7.jpg"); }
+      body .content.section section.preview-8 {
+        background-image: url("../images/b8.jpg"); }
+      body .content.section section.preview-9 {
+        background-image: url("../images/b9.jpg"); }
+      body .content.section section.preview-10 {
+        background-image: url("../images/b10.jpg"); }
+      body .content.section section.preview-11 {
+        background-image: url("../images/b11.jpg"); }
+      body .content.section section.preview-12 {
+        background-image: url("../images/b12.jpg"); }
+      body .content.section section.preview-13 {
+        background-image: url("../images/b13.jpg"); }
+      body .content.section section.preview-14 {
+        background-image: url("../images/b14.jpg"); }
+      body .content.section section.preview-15 {
+        background-image: url("../images/b15.jpg"); }

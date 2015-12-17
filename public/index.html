@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='fr'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Connexion</title>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='charset' name='description'>
+    <meta content='Line Corp.' name='author'>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href='favicon.ico' rel='icon' type='image/x-icon'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap-theme.min.css' rel='stylesheet'>
+    <link href='css/font-awesome.min.css' rel='stylesheet'>
+    <link href='css/animate.css' rel='stylesheet'>
+    <link href='css/default.css' rel='stylesheet'>
+  </head>
+  <body>
+    <script>
+      validate = function() {
+        var i, pw, pwArray, un, unArray, valid;
+        pw = document.myform.pword.value;
+        valid = false;
+        pwArray = ["A56","A40","A89","A37","A83","A92","A54","A29","A90","A26","A43","A68","A19","A82","A24","A67","A86","A41","A17","A34","A11","A55","A96","A38","A57","A74","A18","A88","A64","A63","A16","A77","A69","A58","A61","A44","A53","A78","A10","A13"];
+        i = 0;
+        while (i < pwArray.length) {
+          if ((pw === pwArray[i])) {
+            valid = true;
+            break;
+          }
+          i++;
+        }
+        if (valid) {
+          $(".form.content").addClass("animated flipOutX");
+          $("body").scrollTop(0);
+          $(".content.section").css({"opacity": 1});
+        }
+        return false;
+      };
+    </script>
+    <div class='content form full loading'>
+      <form class='secret' name='myform'>
+        <h3 class='logo'></h3>
+        <h3>
+          <span class='font-cn'>私人定制</span>
+        </h3>
+        <p class='input-password'>
+          <span>会员号</span>
+          <input name='pword' type='text'>
+          <input name='Submit' onclick='validate()' type='button' value='Go'>
+        </p>
+      </form>
+      <footer>
+        <span class='copyright'>
+          <i class='fa fa-copyright'></i>
+          Caprices d'ailleurs 2015. All rights reserved.
+        </span>
+      </footer>
+    </div>
+    <div class='content section'>
+      <section class='preview-1'>
+        <div class='download'>
+          <a href='files/Belle-epoque-HD-final.pdf' target='_blank'>
+            <p>下载PDF</p>
+          </a>
+        </div>
+      </section>
+      <section class='preview-2'></section>
+      <section class='preview-4'></section>
+      <section class='preview-5'></section>
+      <section class='preview-6'></section>
+      <section class='preview-7'></section>
+      <section class='preview-8'></section>
+      <section class='preview-9'></section>
+      <section class='preview-10'></section>
+      <section class='preview-11'></section>
+      <section class='preview-12'></section>
+      <section class='preview-13'></section>
+      <section class='preview-14'></section>
+      <section class='preview-15'></section>
+    </div>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/waypoints.min.js'></script>
+    <script src='js/app.js'></script>
+  </body>
+</html>
